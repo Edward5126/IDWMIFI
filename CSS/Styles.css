@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+body {
+    background-color: #98002E;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 64px;
+    background-color: whitesmoke;
+    margin: 5%;
+}
+
+#LogoNav {
+    width: 30%;
+    height: auto;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2f2f2fa8;
+}
+
+#Background {
+    background-image: url(https://images.unsplash.com/photo-1542744094-3a31f272c490?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    color: whitesmoke;
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+}
